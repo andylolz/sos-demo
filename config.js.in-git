@@ -1,0 +1,5 @@
+var config = {
+  api_key: 'your-secret-key' // secret stripe API key
+};
+
+module.exports = config;

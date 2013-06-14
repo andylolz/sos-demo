@@ -1,0 +1,70 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline}
+body {line-height: 1.5; background: #fff; margin:1.5em 0}
+table {border-collapse: separate; border-spacing: 0}
+caption, th, td {text-align: left; font-weight:400}
+blockquote:before, blockquote:after, q:before, q:after {content: ""}
+blockquote, q {quotes: "" ""}
+a img {border: none}
+.pagebody {font-family: Arial, Helvetica, sans-serif; color: #fff; line-height: 1.5}
+body.pagebody {font-size: 75%; margin: 10px; background-color: #f47f20}
+div.pagebody {font-size: 1.4em}
+#panel div.pagebody {font-size: 120%; background-color: #f47f20; padding: 5px 10px}
+.pagebody h1 {font-size: 2.0em; font-weight: bold}
+.pagebody h2 {font-size: 1.6em; font-weight: normal; margin: 0 0 0.3em 0; padding: 0; text-align: left}
+.pagebody h3 {font-size: 1.4em; font-weight: bold; margin-bottom: 0.3em; text-align: left; line-height: 1.3}
+.pagebody h4 {font-size: 1.2em; font-weight: bold; margin-top: 1.8em; margin-bottom: 0.3em; text-align: left; line-height: 1.3; color: #386351}
+.pagebody h5 {font-size: 100%; font-weight: bold; margin-top: 2em; margin-bottom: 0.3em; text-align: left; line-height: 1.3}
+.pagebody ol, .pagebody ul {margin: 0 0 1em 2em}
+.pagebody ul {list-style-type: disc}
+.pagebody li {margin-bottom: 0.3em}
+.pagebody p {margin-bottom: 1em; font-size: 100%}
+.pagebody hr {border: 0px none transparent; border-top: 1px dashed #999999; margin-top: 10px; margin-bottom: 5px; padding-bottom: 5px; height: 1px}
+.pagebody img {border: 0}
+.pagebody input, .pagebody select, .pagebody textarea, .pagebody label {font-size: 100%}
+.pagebody pre {font-size: 11px}
+.pagebody .quote {font-style: italic; color: #386351; display: block; font-weight: bold; margin-left: 5%; margin-right: 5%; margin-top: 1em}
+.pagebody .callout-left {display: block; float: left; width: 32%; padding: 1%; margin-right: 2%; background-color: #ECECEC; clear: right; font-weight: bold}
+.pagebody .callout-right {display: block; float: right; width: 32%; padding: 1%; margin-left: 2%; background-color: #ECECEC; clear: left; font-weight: bold}
+.pagebody img.right {margin-left: 10px; margin-bottom: 10px; float: right}
+.pagebody img.left {margin-right: 10px; margin-bottom: 10px; float: left}
+.pagebody table {width: 100%; margin-bottom: 1em}
+.pagebody th {text-align: left; border-bottom: 1px solid #999999; font-size: 1.1em; font-weight: bold; padding: 2px}
+.pagebody td {text-align: left; border: 1px solid #CCCCCC; font-size: 1.1em; padding: 2px}
+.pagebody table p {padding: 0; margin: 0; font-size: 100%}
+body.pagebody table th, body.pagebody table td {font-size: 82%}
+div.pagebody table {border-collapse: collapse}
+div.pagebody table tbody tr:hover {background-color: transparent !important}
+.pagebody .left_column {width: 48%; float: left}
+.pagebody .right_column {width: 48%; float: right}
+dl#search_results {}
+dl#search_results dt {margin-top: 1em}
+dl#search_results dd {}
+dl#search_results .highlight {color: #0b4755}
+dl#search_results a {font-weight: bold}
+dl#search_results a .highlight {color: inherit}
+dl#search_results dd em {color: #999999; font-style: normal; display: block; font-size: 95%}
+a.adminedit {background: url("../images/edit.gif") 4px 50% no-repeat; padding-left: 18px; font-weight: bold; color: #D7B207; font-size: 92%; display: inline; float: left; clear: left}
+a.adminedit:hover {color: #C90000}
+.mceVisualAid {border: 1px dashed #BBBBBB !important}
+.mceItemAnchor {width: 12px; line-height: 6px; overflow: hidden; padding-left: 12px; background-image: url('../images/anchor_symbol.gif'); background-position: bottom; background-repeat: no-repeat}
+code.debug_dump {font-size: 10px}
+* {float: none !important; background-image: none !important;}
+body {float: none !important; width: auto !important; margin: 0 !important; padding: 0 !important; font-family: "Lucida Grande", Helvetica, Arial, sans-serif; font-size: 9pt; background: white}
+#crumbs, #left_column, #menu, #tabs, #search_form, #skip_to_content {display: none}
+#wrapper {width: auto; padding: 0; margin: 1em 5% 2em 5%}
+h1 {margin-bottom: 1em}
+h1 a {text-decoration: none; color: black}
+h1, h2, h3, h4 {color: black !important}
+.pagebody h2 {font-weight: bold}
+div.pagebody {padding: 0; color: black; background: transparent}
+div.pagebody a:link, div.pagebody a:visited {color: black; background: transparent; text-decoration: none}
+div.pagebody a[href^="http"]:link:after, div.pagebody a[href^="http"]:visited:after {content: " (" attr(href) ") "; font-size: 85%}
+div.pagebody a[href^="/"]:after {content: " (http://www.website.com" attr(href) ")"}
+div.pagebody h2 a[href^="http"]:link:after, div.pagebody h2 a[href^="http"]:visited:after, div.pagebody h3 a[href^="http"]:link:after, div.pagebody h3 a[href^="http"]:visited:after {display: none}
+#footer {font-size: 100%; text-align: left}
+#siteurl {display: block; margin-bottom: 1em}
+#footer ul {list-style: none}
+#footer li {display: inline}
+#tictoc, a.adminedit, #footer a {display: none}
+.sIFR-flash {display: none !important; height: 0; width: 0; position: absolute; overflow: hidden}
+.sIFR-alternate {visibility: visible !important; display: block !important; position: static !important; left: auto !important; top: auto !important}

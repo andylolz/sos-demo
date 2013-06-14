@@ -1,0 +1,350 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: inherit; vertical-align: baseline}
+body {line-height: 1.5; background: #fff; margin:1.5em 0}
+table {border-collapse: separate; border-spacing: 0}
+caption, th, td {text-align: left; font-weight:400}
+blockquote:before, blockquote:after, q:before, q:after {content: ""}
+blockquote, q {quotes: "" ""}
+a img {border: none}
+.container {width: 905px; margin: 0 auto}
+.column {float: left; margin-right: 15px}
+.last {margin-right: 0}
+.span-1 {width: 100px;}
+.span-2 {width: 215px;}
+.span-3 {width: 330px;}
+.span-4 {width: 445px;}
+.span-5 {width: 560px;}
+.span-6 {width: 675px;}
+.span-7 {width: 790px;}
+.span-8 {width: 905px; margin: 0}
+.append-1 {padding-right: 115px;}
+.append-2 {padding-right: 230px;}
+.append-3 {padding-right: 345px;}
+.append-4 {padding-right: 460px;}
+.append-5 {padding-right: 575px;}
+.append-6 {padding-right: 690px;}
+.append-7 {padding-right: 805px;}
+.prepend-1 {padding-left: 115px;}
+.prepend-2 {padding-left: 230px;}
+.prepend-3 {padding-left: 345px;}
+.prepend-4 {padding-left: 460px;}
+.prepend-5 {padding-left: 575px;}
+.prepend-6 {padding-left: 690px;}
+.prepend-7 {padding-left: 805px;}
+.border{ padding-right:6.5px; margin-right:7.5px; border-right:1px solid #eee}
+.colborder {padding-right:93.5px; margin-right:92.5px; border-right:1px solid #eee}
+.pull-1 {margin-left: -115px;}
+.pull-2 {margin-left: -230px;}
+.pull-3 {margin-left: -345px;}
+.pull-4 {margin-left: -460px;}
+.push-0 {margin: 0 0 0 18px; float: right}
+.push-1 {margin: 0 -115px 0 18px; float: right;}
+.push-2 {margin: 0 -230px 0 18px; float: right;}
+.push-3 {margin: 0 -345px 0 18px; float: right;}
+.push-4 {margin: 0 -460px 0 18px; float: right;}
+.push-0, .push-1, .push-2, .push-3, .push-4 {float: right}
+.box {padding: 1.5em; margin-bottom: 1.5em; background: #eee}
+hr {background: #ddd; color: #ddd; clear: both; float: none; width: 100%; height: .1em; margin: 0 0 1.4em; border: none}
+hr.space {background: #fff; color: #fff}
+.clear {display: inline-block}
+.clear:after, .container:after {content: "."; display: block; height: 0; clear: both; visibility: hidden}
+* html .clear {height: 1%}
+.clear {display: block}
+body {font-size: 62.5%; font-family: Arial, Helvetica, sans-serif; color: #fff; background: #f47f20 url("/images/bg_leaves_outer.gif") top center no-repeat; margin-top: 0}
+body.nobg {background-image: none}
+.container {padding: 0 15px}
+#leaves {background: transparent url("/images/bg_leaves.png") top left no-repeat; z-index: 10; height: 240px; margin-bottom: -240px; position: relative; width: 935px; padding: 0}
+#wrapper {}
+#header {padding-top: 75px; position: relative; padding-bottom: 40px}
+#header h1 {font-size: 2.2em; line-height: 1; text-transform: uppercase; font-weight: normal; position: relative; z-index: 50}
+#header h1 a {display: block; width: 283px; height: 89px; background: url("/images/logo.gif") top left no-repeat; text-indent: -4999em; overflow: hidden}
+#left_column {position: relative; z-index: 20; background: #f47f20}
+#main {margin-bottom: 30px; z-index: 20; position: relative}
+#enews_signup{ position:relative; height:41px; width:675px; display:block; background:url('/images/enews_bg.png') top left no-repeat; font-size:14px; color:#386351; font-weight:bold; text-align:right}
+#enews_signup p{ padding:12px 10px 0 0}
+#enews_signup a{ color:#9d0a00}
+#enews_signup form input{ color:#fff; font-size:80%}
+#enews_signup form #name, #enews_signup form #email{ background:transparent url('/images/enews_input.gif') top left no-repeat; width:206px; height:25px; display:block; float:left; border:0; margin-top:6px; padding:10px 0 0 15px; position:relative}
+#enews_signup span{ float:left; padding:12px 12px 0 12px}
+#enews_signup form #subscribe{ background:transparent url('/images/enews_submit.gif') top left no-repeat; border:0; padding-top:0px; margin-top:6px; float:left; width:76px; height:33px; cursor:pointer}
+#menu {}
+#body {}
+.pagebody {min-height: 300px}
+.pagebody ul.items {list-style: none; margin: 0}
+.pagebody ul.items li {padding: 8px 0; line-height: 1.3}
+.pagebody ul.items li.last {border-bottom: none; margin-bottom: 3px}
+.pagebody ul.items li em.date {font-weight: bold}
+#footer {clear: both; padding-top: 15px; padding-bottom: 10px; background: #F47F20 url("/images/bg_hr.gif") top left no-repeat; color: #fff}
+#footer a {color: #fff}
+#footer a:hover {text-decoration: underline}
+#footer ul {list-style: none}
+#footer li {display: inline; margin-right: 10px; font-size: 1.1em}
+#footer ul.last {text-align: right}
+#footer ul.last li {display: block}
+#siteurl {display: none}
+#tictoc {font-size: 1.1em}
+#errorpage {margin: 50px auto; width: 500px; padding: 50px; background-color: #FFFFFF; line-height: 1.4}
+#errorpage h1 {font-size: 2em; color: #CB0050}
+#errorpage p {font-size: 1.1em}
+#errorpage a {color: #000000}
+#errorpage a:hover {color: #CB0050; text-decoration: underline}
+div.spacer {clear: both; font-size: 1px; line-height: 1px; background: transparent}
+.top_donate_link {position: absolute; top: 0; right: 0; z-index: 999; text-indent: -9999em; width: 181px; height: 63px; background: transparent url("/images/donate.png") no-repeat top left; color: #386351}
+.top_donate_link span {display: block; padding: 6px 10px 10px 20px}
+a, input {outline: none}
+a:link, a:visited, a:hover, a:active {text-decoration: none}
+.pagebody a:link {color: #386351; text-decoration: none}
+.pagebody a:visited {color: #386351; text-decoration: none}
+.pagebody a:hover {color: #fbcca6; text-decoration: underline}
+.pagebody a:active {color: #fbcca6; text-decoration: none}
+#skip_to_content {display: none}
+#menu {list-style-type: none; margin-bottom: 20px}
+#menu li {font-size: 1.3em; line-height: 1; padding: 5px 0}
+#menu li a {display: block; font-weight: bold; color: #fbcca6; padding: 0 5px; width: 205px; height: 17px}
+#menu li a:hover {color: #fff !important}
+#menu li a.active, #menu li a.active_parent {color: #386351}
+#menu li li {font-size: 100%; padding: 0}
+#menu li ul {margin: 0 0 4px 15px; list-style-type: none}
+#menu li li a {width: 190px; color: #fff; padding: 5px; height: auto}
+#menu li li a:hover {color: #fbcca6 !important}
+#menu li a {background: transparent url("/images/bg_navigation.png") 10px 0 no-repeat; text-indent: -4999em}
+#menu #nav_about a {background-position: 10px -23px}
+#menu #nav_orangutans a {background-position: 10px -46px}
+#menu #nav_projects a {background-position: 10px -92px}
+#menu #nav_blog a {background-position: 10px -345px}
+#menu #nav_help a {background-position: 10px -114px}
+#menu #nav_news a {background-position: 10px -138px}
+#menu #nav_eco-trek a {background-position: 10px -161px}
+#menu #nav_campaigns a {background-position: 10px -184px}
+#menu #nav_photogallery a {background-position: 10px -207px}
+#menu #nav_links a {background-position: 10px -230px}
+#menu #nav_contact a {background-position: 10px -253px}
+#menu #nav_shop a {background-position: 10px -276px}
+#menu #nav_sumatra a {background-position: 10px -299px}
+#menu #nav_kids a {background-position: 10px -322px}
+#menu #nav_resources a {background-position: 10px -69px}
+#menu #nav_events a {background-position: 10px -368px}
+#menu li a.active, #menu li a.active_parent {background-position: -215px 0}
+#menu #nav_about a.active, #menu #nav_about a.active_parent {background-position: -215px -23px}
+#menu #nav_orangutans a.active, #menu #nav_orangutans a.active_parent {background-position: -215px -46px}
+#menu #nav_projects a.active, #menu #nav_projects a.active_parent {background-position: -215px -92px}
+#menu #nav_blog a.active, #menu #nav_blog a.active_parent {background-position: -215px -345px}
+#menu #nav_help a.active, #menu #nav_help a.active_parent {background-position: -215px -114px}
+#menu #nav_news a.active, #menu #nav_news a.active_parent {background-position: -215px -138px}
+#menu #nav_eco-trek a.active, #menu #nav_eco-trek a.active_parent {background-position: -215px -161px}
+#menu #nav_campaigns a.active, #menu #nav_campaigns a.active_parent {background-position: -215px -184px}
+#menu #nav_photogallery a.active, #menu #nav_photogallery a.active_parent {background-position: -215px -207px}
+#menu #nav_links a.active, #menu #nav_links a.active_parent {background-position: -215px -230px}
+#menu #nav_contact a.active, #menu #nav_contact a.active_parent {background-position: -215px -253px}
+#menu #nav_shop a.active, #menu #nav_shop a.active_parent {background-position: -215px -276px}
+#menu #nav_sumatra a.active, #menu #nav_sumatra a.active_parent {background-position: -215px -299px}
+#menu #nav_kids a.active, #menu #nav_kids a.active_parent {background-position: -215px -322px}
+#menu #nav_resources a.active, #menu #nav_resources a.active_parent {background-position: -215px -69px}
+#menu #nav_events a.active, #menu #nav_events a.active_parent {background-position: -215px -368px}
+#menu li a:hover {background-position: -421px 0}
+#menu #nav_about a:hover {background-position: -421px -23px}
+#menu #nav_orangutans a:hover {background-position: -421px -46px}
+#menu #nav_projects a:hover {background-position: -421px -92px}
+#menu #nav_blog a:hover {background-position: -422px -345px}
+#menu #nav_help a:hover {background-position: -421px -114px}
+#menu #nav_news a:hover {background-position: -421px -138px}
+#menu #nav_eco-trek a:hover {background-position: -421px -161px}
+#menu #nav_campaigns a:hover {background-position: -421px -184px}
+#menu #nav_photogallery a:hover {background-position: -421px -207px}
+#menu #nav_links a:hover {background-position: -421px -230px}
+#menu #nav_contact a:hover {background-position: -421px -253px}
+#menu #nav_shop a:hover {background-position: -421px -276px}
+#menu #nav_sumatra a:hover {background-position: -421px -299px}
+#menu #nav_kids a:hover {background-position: -421px -322px}
+#menu #nav_resources a:hover {background-position: -421px -69px}
+#menu #nav_events a:hover {background-position: -422px -368px}
+#menu li li a, #menu li li a.active {background-image: none; text-indent: 0}
+ul#signposts {list-style: none}
+ul#signposts li {margin-bottom: 20px; font-size: 1.2em; line-height: 1.3}
+ul#signposts li strong {color: #666}
+div.pagination {border-top: 1px solid #E8EAED; margin-top: 16px; padding-top: 4px; font-size: 100%; text-align: center; color: #666}
+div.pagination .item_count {float: left; width: auto; text-align: left}
+div.pagination .prev_next {float: right; width: auto; text-align: right}
+#sitemap {line-height: 1.6}
+#sitemap ul {list-style: none; margin-left: 0}
+#sitemap ul ul {margin-left: 20px; list-style: none}
+#sitemap li {}
+#sitemap li li {font-size: 100%}
+#sitemap li.main {font-weight: bold}
+#sitemap li.main li {font-weight: normal}
+#social_sharing{ position: relative; top: 10px; margin-top: 20px; border-top: 2px solid #FBCCA6; overflow: hidden; clear: both; padding-top: 10px; padding-bottom: 30px}
+#social_sharing_inner{ float: right; display: inline}
+#like_button, #tweet_button, #plus_one_button{ float: left; display: inline; height: 20px; margin-right: 5px; vertical-align: top; overflow: hidden}
+#like_button{ width: 50px}
+#plus_one_button{ width: 32px}
+#tweet_button{ width: 56px}
+fieldset {border: none; padding: 0}
+.pagebody fieldset {font-size: 87%}
+fieldset ul {list-style: none; padding: 0 0 10px 0; margin: 0 !important}
+fieldset ul li {padding-bottom: 1.0em; list-style-type: none}
+fieldset input, fieldset select, fieldset textarea {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 1.1em !important; font-weight: normal; border: 1px solid #CCDAE2; padding: 3px; margin: 2px 0 0 0; color: #333333; background-color: #E8EAED}
+fieldset textarea {overflow: auto}
+fieldset select {padding: 1px; padding: 2px 1px 2px 0}
+fieldset select option {padding: 0 1em 0 2px}
+fieldset label {margin-right: 5px; font-weight: bold; display: block; margin-top: 10px; font-size: 110% !important; line-height: 1.3}
+fieldset label.note {font-weight: normal; color: #386351; margin: 0 1em 0 0}
+.required {color: #DF226A !important}
+fieldset label.checkbox_note {font-weight: normal; display: inline; float: none}
+fieldset label.tiny, fieldset input.tiny, fieldset select.tiny, fieldset textarea.tiny {width: 10% }
+fieldset label.small, fieldset input.small, fieldset select.small, fieldset textarea.small {width: 20%}
+fieldset label.third, fieldset input.third, fieldset select.third, fieldset textarea.third {width: 31%}
+fieldset label.half, fieldset input.half, fieldset select.half, fieldset textarea.half {width: 48%}
+fieldset label.full, fieldset input.full, fieldset select.full, fieldset textarea.full {width: 98%}
+fieldset label.tiny, fieldset label.small, fieldset label.third, fieldset label.half, fieldset label.full {float: left}
+fieldset p {margin-bottom: 0.5em !important; font-size: 1.1em}
+form#search_form {}
+form#search_form label {color: #1f7d93; font-weight: bold; font-size: 1.1em}
+form#search_form input {font-family: Verdana, Arial, Helvetica, sans-serif; width: 13em; background-color: #E8EAED; border: 1px solid #CCDAE2; padding: 2px; font-size: 1.1em}
+form#search_form input.button1 {margin-right: 0}
+fieldset.buttons {border: 0px none #CCCCCC; background-color: transparent; margin: 0; padding: 5px 0}
+fieldset.buttons input, #search_form input.button1 {cursor: pointer; width: auto; padding: 2px 10px; background-color: #DFDFDF; border-top: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-right: 1px solid #A5A5A5; border-bottom: 1px solid #A5A5A5; margin-right: 15px}
+fieldset.buttons input:hover, #search_form input.button1 {background-color: #F6F6F6; border-top: 1px solid #DFDFDF; border-left: 1px solid #DFDFDF; border-right: 1px solid #CCCCCC; border-bottom: 1px solid #CCCCCC}
+#search_form p {margin: 0; padding: 0}
+fieldset.buttons input.button1, form#search_form input.button1 {font-weight: bold}
+fieldset.buttons input.button2 {font-weight: normal}
+#notice {background-color: #bae68f; padding: 7px 14px; margin: 10px 0}
+#notice p {font-weight: bold; margin: 5px 0; font-size: 100%}
+.error {font-weight: bold; color: #DF226A}
+div.error-msg {background: url("/images/alert.gif") no-repeat 0 35%; padding: 5px 10px 10px 10px; color: #DF226A; font-weight: bold; padding-left: 20px}
+.fieldWithErrors {display: inline}
+.fieldWithErrors input, .fieldWithErrors textarea {border: 1px solid #DF226A; background-image: url("/images/alert.gif"); background-repeat: no-repeat; background-position: 99% 3px}
+#errorExplanation {padding: 4px 8px 8px 8px; margin: 8px 0; background-color: #821837; color: #FFFFFF}
+#errorExplanation h2 {text-align: left; font-weight: bold; padding: 5px 5px 5px 15px; font-size: 1.1em; color: #fa9b06; margin: -7px -7px 0 -7px}
+#errorExplanation p {margin: 5px 0; font-size: 100%; font-weight: bold; color: #fa9b06}
+#errorExplanation ul li {font-size: 100%; list-style: square; margin-left: 0}
+.pagebody {font-family: Arial, Helvetica, sans-serif; color: #fff; line-height: 1.5}
+body.pagebody {font-size: 75%; margin: 10px; background-color: #f47f20}
+div.pagebody {font-size: 1.4em}
+#panel div.pagebody {font-size: 120%; background-color: #f47f20; padding: 5px 10px}
+.pagebody h1 {font-size: 2.0em; font-weight: bold}
+.pagebody h2 {font-size: 1.6em; font-weight: normal; margin: 0 0 0.3em 0; padding: 0; text-align: left}
+.pagebody h3 {font-size: 1.4em; font-weight: bold; margin-bottom: 0.3em; text-align: left; line-height: 1.3}
+.pagebody h4 {font-size: 1.2em; font-weight: bold; margin-top: 1.8em; margin-bottom: 0.3em; text-align: left; line-height: 1.3; color: #386351}
+.pagebody h5 {font-size: 100%; font-weight: bold; margin-top: 2em; margin-bottom: 0.3em; text-align: left; line-height: 1.3}
+.pagebody ol, .pagebody ul {margin: 0 0 1em 2em}
+.pagebody ul {list-style-type: disc}
+.pagebody li {margin-bottom: 0.3em}
+.pagebody p {margin-bottom: 1em; font-size: 100%}
+.pagebody hr {border: 0px none transparent; border-top: 1px dashed #999999; margin-top: 10px; margin-bottom: 5px; padding-bottom: 5px; height: 1px}
+.pagebody img {border: 0}
+.pagebody input, .pagebody select, .pagebody textarea, .pagebody label {font-size: 100%}
+.pagebody pre {font-size: 11px}
+.pagebody .quote {font-style: italic; color: #386351; display: block; font-weight: bold; margin-left: 5%; margin-right: 5%; margin-top: 1em}
+.pagebody .callout-left {display: block; float: left; width: 32%; padding: 1%; margin-right: 2%; background-color: #ECECEC; clear: right; font-weight: bold}
+.pagebody .callout-right {display: block; float: right; width: 32%; padding: 1%; margin-left: 2%; background-color: #ECECEC; clear: left; font-weight: bold}
+.pagebody img.right {margin-left: 10px; margin-bottom: 10px; float: right}
+.pagebody img.left {margin-right: 10px; margin-bottom: 10px; float: left}
+.pagebody table {width: 100%; margin-bottom: 1em}
+.pagebody th {text-align: left; border-bottom: 1px solid #999999; font-size: 1.1em; font-weight: bold; padding: 2px}
+.pagebody td {text-align: left; border: 1px solid #CCCCCC; font-size: 1.1em; padding: 2px}
+.pagebody table p {padding: 0; margin: 0; font-size: 100%}
+body.pagebody table th, body.pagebody table td {font-size: 82%}
+div.pagebody table {border-collapse: collapse}
+div.pagebody table tbody tr:hover {background-color: transparent !important}
+.pagebody .left_column {width: 48%; float: left}
+.pagebody .right_column {width: 48%; float: right}
+dl#search_results {}
+dl#search_results dt {margin-top: 1em}
+dl#search_results dd {}
+dl#search_results .highlight {color: #0b4755}
+dl#search_results a {font-weight: bold}
+dl#search_results a .highlight {color: inherit}
+dl#search_results dd em {color: #999999; font-style: normal; display: block; font-size: 95%}
+a.adminedit {background: url("../images/edit.gif") 4px 50% no-repeat; padding-left: 18px; font-weight: bold; color: #D7B207; font-size: 92%; display: inline; float: left; clear: left}
+a.adminedit:hover {color: #C90000}
+.mceVisualAid {border: 1px dashed #BBBBBB !important}
+.mceItemAnchor {width: 12px; line-height: 6px; overflow: hidden; padding-left: 12px; background-image: url('../images/anchor_symbol.gif'); background-position: bottom; background-repeat: no-repeat}
+code.debug_dump {font-size: 10px}
+#home #banner {height: 275px; background-color: transparent; background-position: top left; background-repeat: no-repeat}
+#home h2 {font-weight: bold; margin-bottom: 0}
+#home h3 {color: #fbcca6}
+#home .signpost {background: #fbcca6 url("/images/bg_signpost_top.gif") top left no-repeat; margin-top: 20px; padding-top: 5px}
+#home .last {margin-right: 0}
+#home .signpost .inner {background: #fbcca6 url("/images/bg_signpost_bottom.gif") bottom left no-repeat; padding-bottom: 10px}
+#home .signpost .inner .text {float: left; width: 200px}
+#home .signpost .inner .image {float: left; width: 120px}
+#home .signpost p {font-size: 0.9em; padding: 0 10px; color: #54765d}
+#home .signpost h4 {padding: 0 10px; margin-top: 10px; font-size: 1.4em}
+#home .signpost .sign_link a {display: block; width: 90px; height: 28px; line-height: 28px; font-size: 0.9em; font-weight: bold; color: #fff; background: #54765d url("/images/button.gif") top left no-repeat; text-align: center}
+#home .signpost img, #home .signpost embed {float: right; margin-bottom: 10px}
+#home .signpost.wide {background-image: url("/images/bg_signpost_top_wide.gif"); padding-top: 15px}
+#home .signpost.wide .inner {background-image: url("/images/bg_signpost_bottom_wide.gif")}
+#home .signpost.wide .inner .text {width: 495px}
+#home .signpost.wide .inner .image {width: 170px}
+#home .signpost.wide .sign_link a {width: auto; height: auto; background: none; padding: 0; margin: 0; text-align: left; line-height: 1; color: #386351; font-size: 1em}
+#home .signpost.wide .sign_link a:hover {text-decoration: underline; color: #386351}
+p#contact_address {margin-top: 1em}
+#legal_details {font-size: 90%}
+p#company_vat_no, p#company_reg_no {margin: 0}
+#map {width: 100%; height: 300px; font-size: 85%; border: 1px solid #CCDAE2}
+#gallery_list {list-style-type: none; margin: 0; padding: 0; clear: both}
+#gallery_list li {margin-bottom: 15px}
+#gallery_list a:hover {text-decoration: none}
+#gallery_list a:hover .title {text-decoration: underline}
+#TB_window {font: 12px Arial, Helvetica, sans-serif; color: #333333}
+#TB_secondLine {font: 10px Arial, Helvetica, sans-serif; color:#666666}
+#TB_window a:link {color: #666666;}
+#TB_window a:visited {color: #666666;}
+#TB_window a:hover {color: #000;}
+#TB_window a:active {color: #666666;}
+#TB_window a:focus{color: #666666;}
+#TB_overlay {position: fixed; z-index:100; top: 0px; left: 0px; height:100%; width:100%}
+.TB_overlayMacFFBGHack {background: url("/images/macFFBgHack.png") repeat;}
+.TB_overlayBG {background-color:#000; filter:alpha(opacity=75); -moz-opacity: 0.75; opacity: 0.75}
+* html #TB_overlay {position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px')}
+#TB_window {position: fixed; background: #ffffff; z-index: 102; color:#000000; display:none; border: 4px solid #525252; text-align:left; top:50%; left:50%}
+* html #TB_window {position: absolute; margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px')}
+#TB_window img#TB_Image {display:block; margin: 15px 0 0 15px; border-right: 1px solid #ccc; border-bottom: 1px solid #ccc; border-top: 1px solid #666; border-left: 1px solid #666}
+#TB_caption{ height:25px; padding:7px 30px 10px 25px; float:left}
+#TB_closeWindow{ height:25px; padding:11px 25px 10px 0; float:right}
+#TB_closeAjaxWindow{ padding:7px 10px 5px 0; margin-bottom:1px; text-align:right; float:right}
+#TB_ajaxWindowTitle{ float:left; padding:7px 0 5px 10px; margin-bottom:1px}
+#TB_title{ background-color:#e8e8e8; height:27px}
+#TB_ajaxContent{ clear:both; padding:2px 15px 15px 15px; overflow:auto; text-align:left; line-height:1.4em}
+#TB_ajaxContent.TB_modal{ padding:15px}
+#TB_ajaxContent p{ padding:5px 0px 5px 0px}
+#TB_load{ position: fixed; display:none; height:13px; width:208px; z-index:103; top: 50%; left: 50%; margin: -6px 0 0 -104px}
+* html #TB_load {position: absolute; margin-top: expression(0 - parseInt(this.offsetHeight / 2) + (TBWindowMargin = document.documentElement && document.documentElement.scrollTop || document.body.scrollTop) + 'px')}
+#TB_HideSelect{ z-index:99; position:fixed; top: 0; left: 0; background-color:#fff; border:none; filter:alpha(opacity=0); -moz-opacity: 0; opacity: 0; height:100%; width:100%}
+* html #TB_HideSelect {position: absolute; height: expression(document.body.scrollHeight > document.body.offsetHeight ? document.body.scrollHeight : document.body.offsetHeight + 'px')}
+#TB_iframeContent{ clear:both; border:none; margin-bottom:-1px; margin-top:1px; _margin-bottom:1px}
+.new_signposts {clear:both; margin:20px 10px; overflow:hidden; height:100%}
+.new_signposts .icon {width:205px; margin:0 10px; float:left; display:inline}
+.new_signposts .first {margin-left:0}
+.new_signposts .last {margin-right:0}
+.new_signposts #shop {background:url('/images/signposts/home_signposts.gif') no-repeat left top; height:195px}
+.new_signposts #enews {background:url('/images/signposts/home_signposts.gif') no-repeat -205px top; height:195px}
+.new_signposts #donate {background:url('/images/signposts/home_signposts.gif') no-repeat -410px top; height:195px}
+.new_signposts a {display:block}
+.new_signposts #shop a, .new_signposts #donate a {display:block; height:185px; width:205px}
+.new_signposts p strong, .new_signposts p span, .new_signposts a strong, .new_signposts a span {text-indent:-9999px!important; display:block}
+.new_signposts #twitter {margin-bottom:5px}
+.new_signposts #enews {position:relative}
+.new_signposts #enews form {position:absolute; top:50px; left:15px}
+.new_signposts #enews form input {background:none; border:0 none; height:25px; width:155px; margin-top:15px; margin-left:10px; color:#fff; clear:both}
+.new_signposts #enews form input#subscribe {width:73px; height:32px; margin-top:5px; margin-left:0}
+#left_column .new_signposts, #left_column .new_signposts .icon {margin-left: 0}
+#tabbed {background:url('/images/signposts/tabbed_bg.gif') no-repeat left top; height:335px; margin-bottom:10px; overflow:hidden; position:relative}
+#tabbed .panes {position:absolute; top:10px; height:250px; width: 666px; overflow:hidden}
+#tabbed .panes .pane {display:none}
+#tabbed .panes .pane.first {display:block}
+#tabbed h4 {font-size:200%; line-height:130%; color:#ffffff; margin:15px 0 5px}
+#tabbed p {font-size:145%; line-height:130%; color:#f6c197; margin:5px 0 10px}
+#tabbed a {color:#ffffff; font-weight:bold}
+#tabbed a:hover {text-decoration:underline}
+#tabbed .panes .text {width:290px; padding:10px 10px 10px 25px; height:220px; float:left}
+#tabbed .panes img {margin-top:4px; float:right}
+#tabbed .panes .image_overlay {position:absolute; top:4px; right:0; background:url('/images/signposts/image_overlay.png') no-repeat left top; width:341px; height:253px}
+#tabbed ul.tabs {margin:0 10px; list-style:none; position:absolute; bottom:18px; font-size:130%; line-height:120%}
+#tabbed ul.tabs li {display:inline; float:left; margin-right:20px}
+#tabbed ul.tabs li.last {margin:0}
+#tabbed ul.tabs li a {display:block; float:left; width:175px; height:35px; overflow: hidden; padding:10px 15px 5px; background:url('/images/signposts/tabs_bg.gif') no-repeat left top}
+#tabbed ul.tabs li a:hover, #tabbed ul.tabs li a.active, #tabbed ul.tabs li a.active:hover {background:url('/images/signposts/tabs_bg.gif') no-repeat left -59px}
+.sIFR-flash {visibility: visible !important; margin: 0; padding: 0}
+.sIFR-replaced, .sIFR-ignore {visibility: visible !important}
+.sIFR-alternate {position: absolute; left: 0; top: 0; width: 0; height: 0; display: block; overflow: hidden}
+.sIFR-replaced div.sIFR-fixfocus {margin: 0pt; padding: 0pt; overflow: auto; letter-spacing: 0px; float: none}

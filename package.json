@@ -1,0 +1,11 @@
+{
+  "name": "sos-donate",
+  "description": "Stripe donations demo for the Sumatran Orangutan Society",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "3.2.6",
+    "stripe": "1.3.0",
+    "swig": "0.14.0",
+    "consolidate": "0.9.1"
+  }
+}
