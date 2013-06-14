@@ -1,7 +1,7 @@
-var config = require('./config');
 var express = require('express'); // the express framework
-var cons = require('consolidate'); // required by swig
-var swig = require('swig'); // the template engine
+var config = require('./config'); // local config file
+var cons = require('consolidate'); // swig dependency
+var swig = require('swig'); // template engine
 
 var app = express(); // start the framework!
 
